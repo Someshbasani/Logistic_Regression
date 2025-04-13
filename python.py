@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 #import joblib
-from sklearn.linear_model import LogisticRegression
+#from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder
 
 # Title
