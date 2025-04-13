@@ -10,7 +10,7 @@ from sklearn.preprocessing import OneHotEncoder, LabelEncoder
 st.title("Model Deployment: Logistic Regression")
 
 # Sidebar for user input
-st.sidebar.header("User Input Parameters")
+st.header("User Input Parameters")
 
 # Function to take user input
 def user_input_features():
