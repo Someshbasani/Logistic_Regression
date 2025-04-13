@@ -2,7 +2,9 @@ import streamlit as st
 import pandas as pd
 #import joblib
 #from sklearn.linear_model import LogisticRegression
-#from sklearn.preprocessing import OneHotEncoder, LabelEncoder
+from sklearn.preprocessing import OneHotEncoder, LabelEncoder
+#from sklearn.preprocessing import LabelEncoder
+
 
 # Title
 st.title("Model Deployment: Logistic Regression")
