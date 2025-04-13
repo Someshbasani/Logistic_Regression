@@ -48,8 +48,8 @@ st.write(df)
 @st.cache_data
 def load_and_preprocess_data():
     # Load datasets
-    train = pd.read_csv(r"C:\Users\basan\Desktop\datascience class\Assignments\7.Logistic Regression\Logistic Regression\Titanic_train.csv")
-    test = pd.read_csv(r"C:\Users\basan\Desktop\datascience class\Assignments\7.Logistic Regression\Logistic Regression\Titanic_test.csv")
+    train = pd.read_csv("Titanic_train.csv")
+    test = pd.read_csv("Titanic_test.csv")
 
     # Drop unnecessary columns
     train.drop(['PassengerId', 'Name', 'Cabin','Ticket'], axis=1, inplace=True)
